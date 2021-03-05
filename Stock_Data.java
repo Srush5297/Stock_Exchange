@@ -22,11 +22,8 @@ public class Stock_Data
 				String Low = row[4];
 				System.out.println(row[3]);	
 				System.out.println("|");	
-				System.out.println(row[4]);	
-				
-			
+				System.out.println(row[4]);
 			}
-
 		}
 		catch (Exception e)
 		{
@@ -38,9 +35,7 @@ public class Stock_Data
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
-			
+			}		
 		}
 	}
-
 }
