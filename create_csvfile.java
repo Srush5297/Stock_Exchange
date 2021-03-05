@@ -1,5 +1,4 @@
 package Data;
-
 import java.io.PrintWriter;
 
 public class create_csvfile 
@@ -24,5 +23,4 @@ public class create_csvfile
 			e.printStackTrace();
 		}
 	}
-
 }
