@@ -18,11 +18,16 @@ public class Stock_Data
 			while((line= reader.readLine()) != null)
 			{		
 			    String[] row= line.split(",");
+				
+				String Symbol = row[0];
 				String High = row[3];
 				String Low = row[4];
+				System.out.println(row[0]);	
+				System.out.println(" | ");	
 				System.out.println(row[3]);	
-				System.out.println("|");	
-				System.out.println(row[4]);
+				System.out.println(" | ");	
+				System.out.println(row[4]);	
+				
 			}
 		}
 		catch (Exception e)
