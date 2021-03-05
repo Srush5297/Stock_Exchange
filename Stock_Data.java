@@ -28,6 +28,19 @@ public class Stock_Data
 				System.out.println(" | ");	
 				System.out.println(row[4]);	
 				
+				double a = Double.parseDouble(High);
+				double b = Double.parseDouble(Low);
+				
+				double c = (a-b);
+				System.out.println(c);
+				
+				for(int i =0; i<=n; i++)
+				{
+					double DATR = c / n;
+					System.out.println("DATR is :"+DATR);
+					
+				}
+				
 			}
 		}
 		catch (Exception e)
